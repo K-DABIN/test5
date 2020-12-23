@@ -47,4 +47,8 @@ public class HomeController {
 		return "Test/NewFile1";
 	}
 
+	@RequestMapping("/List")
+	public String List() {
+		return "List";
+	}
 }
