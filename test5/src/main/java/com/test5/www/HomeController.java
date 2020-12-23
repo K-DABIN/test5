@@ -42,4 +42,9 @@ public class HomeController {
 		return "NewFile";
 	}
 	
+	@RequestMapping("/Test/NewFile")
+	public String TestNewFile() {
+		return "Test/NewFile";
+	}
+
 }
