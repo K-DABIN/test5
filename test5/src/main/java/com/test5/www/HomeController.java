@@ -1,3 +1,4 @@
+
 package com.test5.www;
 
 import java.text.DateFormat;
@@ -34,6 +35,11 @@ public class HomeController {
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
+	}
+	
+	@RequestMapping("/NewFile")
+	public String newFile() {
+		return "NewFile";
 	}
 	
 }
