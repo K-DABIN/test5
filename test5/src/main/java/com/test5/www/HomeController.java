@@ -44,7 +44,7 @@ public class HomeController {
 	
 	@RequestMapping("/Test/NewFile")
 	public String TestNewFile() {
-		return "Test/NewFile";
+		return "Test/NewFile1";
 	}
 
 }
